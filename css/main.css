@@ -1,0 +1,88 @@
+/* Ingresa tu css aqui */
+.global {
+	width: 704px;
+	margin: 0 auto;
+	font-family: museo-sans;
+}
+.cjinicio {
+	
+	border-top-style: solid;
+	border-top-color: black;
+	border-bottom-style: solid;
+	border-bottom-color: black;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+.inicio {
+	padding: 7px 0px; 
+	display: inline-block;
+	font-family: museo-sans;
+}
+
+.inicio p {
+	margin: 0px ;
+	font-size: 29px;
+	border-right-style: solid;
+	border-right-color: black;
+	padding: 0px 17px;
+}
+#inifinal div p{
+	border: none;
+}
+
+.sepauno hr {
+	size:15px;
+ 	align:center;
+ 	width:7%;
+ 	height: 1px;
+ 	color: gray;
+ 	background: gray;
+ 	margin-top: 10px;
+}
+.textuno {
+	padding:3px 150px;
+	font-size: 23px;
+	text-align: center;
+}
+p {
+	margin: 0px;
+}
+.sepados hr {
+	size:15px;
+ 	align:center;
+ 	width:7%;
+ 	height: 2px;
+ 	color: gray;
+ 	background: gray;
+ 	margin-top: 10px;
+}
+.fotos img {
+	padding: 5px;
+	padding: 0px;
+}
+.sepatres hr {
+	size:15px;
+ 	width:7%;
+ 	height: 2px;
+ 	color: gray;
+ 	background: black;
+ 	margin: 0px  ;
+}
+.fotos {
+	padding: 5px;
+}
+.fotografia {
+	display: inline;
+	z-index: 1px;
+	position: relative;
+	padding: 0px;
+	margin:5px;
+}
+.fotografia p{
+	display: inline;
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
+	s-index: 1px;
+	color: white;
+}
