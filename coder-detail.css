@@ -1,0 +1,48 @@
+.container {
+	width: 660px;
+	margin: 0 auto;
+	border: 2px solid gray;
+	font-family: museo-sans;
+	padding: 25px;
+}
+.caja-1 {
+	margin: 0 auto;	
+	text-align: center;
+	width: 595px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.caja-1 img {
+	border-radius: 50%;
+}
+.caja-1 p {
+	font-size: 20px;	
+}
+.caja-2 ol {
+	height: 25px;
+	padding: 10px;
+	background:#808080;
+	margin: 35px;
+}
+.caja-2 ol li{	
+	color: white;
+	list-style: none;
+}
+.caja-2 ol:last-child {
+	width: 100px;
+}
+.caja-2 ol:nth-child(2) {
+	width: 250px;
+}
+.caja-2 ol:first-child {
+	width: 400px;
+}
+.caja-3 img {
+	height: 130px;
+	width: 180px;
+	display: inline-block;
+	margin: 10px;
+}
+.caja-3 {
+	margin: 0px 20px;
+}

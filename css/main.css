@@ -1,6 +1,6 @@
 /* Ingresa tu css aqui */
-.global {
-	width: 704px;
+.container {
+	width: 700px;
 	margin: 0 auto;
 	font-family: museo-sans;
 }
@@ -12,22 +12,20 @@
 	border-bottom-color: black;
 	margin-bottom: 15px;
 	margin-top: 10px;
-}
-.inicio {
 	padding: 7px 0px; 
 	display: inline-block;
-	font-family: museo-sans;
 }
-
-.inicio p {
+.cjinicio a {
+	text-decoration: none;
 	margin: 0px ;
+	color: black;
 	font-size: 29px;
 	border-right-style: solid;
 	border-right-color: black;
 	padding: 0px 17px;
 }
-#inifinal div p{
-	border: none;
+.cjinicio a:last-child {
+	border:none;
 }
 
 .sepauno hr {
@@ -44,9 +42,7 @@
 	font-size: 23px;
 	text-align: center;
 }
-p {
-	margin: 0px;
-}
+
 .sepados hr {
 	size:15px;
  	align:center;
@@ -70,19 +66,21 @@ p {
 }
 .fotos {
 	padding: 5px;
+	position: relative;
+	left: 20px;
 }
 .fotografia {
 	display: inline;
-	z-index: 1px;
 	position: relative;
 	padding: 0px;
 	margin:5px;
 }
-.fotografia p{
+.fotografia a {
+	text-decoration: none;
 	display: inline;
 	position: absolute;
 	right: 10px;
 	bottom: 5px;
-	s-index: 1px;
 	color: white;
 }
+
