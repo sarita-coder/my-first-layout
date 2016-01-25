@@ -3,58 +3,40 @@
 	width: 700px;
 	margin: 0 auto;
 	font-family: museo-sans;
+	text-align: center;
 }
-.cjinicio {
-	
-	border-top-style: solid;
-	border-top-color: black;
-	border-bottom-style: solid;
-	border-bottom-color: black;
-	margin-bottom: 15px;
-	margin-top: 10px;
-	padding: 7px 0px; 
-	display: inline-block;
-}
-.cjinicio a {
+a {
 	text-decoration: none;
-	margin: 0px ;
-	color: black;
-	font-size: 29px;
-	border-right-style: solid;
-	border-right-color: black;
-	padding: 0px 17px;
-}
-.cjinicio a:last-child {
-	border:none;
-}
 
-.sepauno hr {
-	size:15px;
- 	align:center;
- 	width:7%;
- 	height: 1px;
- 	color: gray;
- 	background: gray;
- 	margin-top: 10px;
+}
+.navegador ul {
+	list-style-type: none;
+	border-top:1px solid black;
+	border-bottom: 1px solid black;
+	padding:0;
+}
+.navegador ul li{
+	display: inline-block;
+	padding: 10px 5px 10px 10px;
+	font-size: 29px;
+}
+.navegador ul li a{
+	color: black;
 }
 .textuno {
 	padding:3px 150px;
 	font-size: 23px;
 	text-align: center;
 }
-
-.sepados hr {
-	size:15px;
- 	align:center;
+.separador hr {
  	width:7%;
- 	height: 2px;
- 	color: gray;
- 	background: gray;
- 	margin-top: 10px;
+ 	height: 3px;
+ 	background: #808080;
+ 	margin-top: 15px;
+ 	border:none;
 }
-.fotos img {
-	padding: 5px;
-	padding: 0px;
+.container h3{
+	text-align: left;
 }
 .sepatres hr {
 	size:15px;
@@ -75,6 +57,11 @@
 	padding: 0px;
 	margin:5px;
 }
+.fotos .fotografia img {
+	padding: 5px;
+	padding: 0px;
+	opacity: 0.8;
+}
 .fotografia a {
 	text-decoration: none;
 	display: inline;
@@ -82,5 +69,11 @@
 	right: 10px;
 	bottom: 5px;
 	color: white;
+}
+.fotos .fotografia a:hover{
+	border-bottom: 1px solid blue;
+}
+.fotos .fotografia img:hover{
+	opacity: 1;
 }
 
